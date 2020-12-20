@@ -1,0 +1,140 @@
+body{
+	background-color: #F8F8F8;
+}
+
+.header {
+	border-bottom: 1px solid #FC0;
+	height: 70px;
+	background-color: #002346;
+}
+
+.container {
+	width: 1200px;
+	margin:0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 5px;
+	height: 60px;
+	width: 120px;
+}
+
+.nav {
+	float: left;
+	margin-top: 25px;
+}
+
+.nav li{
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav a{
+	color: #FC0;
+}
+
+.form {
+	float: right;
+	margin-top: 25px;
+}
+
+#search{
+	float: left;
+	width: 165px;
+	height: 25px;
+	border: 2px solid #FC0;
+}
+
+#submit{
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: #FC0 url(C:/Users/卿依/Desktop/web大作业/images/作业6/图片/search.png) no-repeat center center;
+}
+
+#counter{
+	width: 1200px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+#banner{
+	width: 3600px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;	
+	background-color: #002346;
+}
+
+#banner img{
+	width: 1200px;
+	height: 400px;
+	float: left;
+}
+
+.arrow{
+	position: absolute;
+	top: 150px;
+	text-decoration: none;
+	z-index: 2;
+	display: none;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	color: #FC0;
+	cursor: pointer;
+}
+
+#counter:hover .arrow{display: block;}
+#pre{left:20px;}
+#next{right:20px;}
+#banner{transition: left 1s;}
+.banner{transition: left 0.1s;}
+/图片/banner/2.jpg) no-repeat center center;
+	background-size: 75% 100%;
+}
+
+.title{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title h2{
+	text-align: center;
+	color:#002346;
+	font-weight: bold;
+	background: url(C:/Users/卿依/Desktop/web大作业/images/作业6/图片/banner/line1.jpg) no-repeat center center;
+	background-size: 1200px 50px;
+	margin-top: 20px;
+}
+
+.curator{
+	margin-top: 20px;
+	width: 1200px;
+	height: 500px;
+}
+
+.curator img{
+	margin-left: 2px;
+	width: 127px;
+	height: 500px;
+}
+
+.end{
+	margin-top: 20px;
+	height: 100px;
+	background-color: #002346;
+}
+
+.end p{
+	padding-top: 45px;
+	text-align: center;
+	color: #FC0;
+}

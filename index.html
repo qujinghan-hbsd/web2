@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>国家宝藏</title>
+	<link rel="stylesheet" href="d:/代码/web/css/base.css">
+	<link rel="stylesheet" href="d:/代码/web/css/1.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container clear">
+			<img src="d:/web/images/作业6/图片/logo.jpg" alt="logo" class="logo" />
+			<ul class="nav clear">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">精品推荐</a></li>
+				<li><a href="#">博物馆</a></li>
+				<li><a href="#">文物</a></li>
+				<li><a href="#">分类</a></li>
+				<li><a href="#">帮助</a></li>
+			</ul>
+			<form class="form">
+				<input type="text" placeholder="请输入关键字" id="search" />
+				<input type="button" id="submit" onclick="submitc()" />
+			</form>
+		</div>
+	</div>
+	<div id="counter">
+		<div id="banner" style="left:0px">
+			<img src="d:/web/images/作业6/图片/banner/1.jpg" alt="1" />
+			<img src="d:/web/images/作业6/图片/banner/2.jpg" alt="2" />
+			<img src="d:/web/images/作业6/图片/banner/3.jpg" alt="3" />
+		</div>
+		<a href="javascript:;" id="pre" class="arrow">&lt;</a>
+		<a href="javascript:;" id="next" class="arrow">&gt;</a>
+	</div>
+	<div class="title">
+		<h2>馆 长 风 采</h2>
+		<div class="curator">
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/单霁翔.jpg" alt="1" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/杨志刚.jpg" alt="2" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/万全文.jpg" alt="3" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/强跃.jpg" alt="4" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/段晓明.jpg" alt="5" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/蔡琴.jpg" alt="6" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/马宝杰.jpg" alt="7" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/马萧林.jpg" alt="8" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/馆长/龚良.jpg" alt="9" /></a>
+		</div>
+	</div>
+
+	<div class="title">
+		<h2>守 护 人</h2>
+		<div class="curator">
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/任重.jpg" alt="1" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/何炅.jpg" alt="2" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/关晓彤.jpg" alt="3" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/刘涛.jpg" alt="4" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/周冬雨.jpg" alt="5" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/宁静.jpg" alt="6" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/撒贝宁.jpg" alt="7" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/王凯.jpg" alt="8" /></a>
+			<a href='#' onClick="delayURL('https://www.iqiyi.com/v_19rrjceoks.html?fv=p_08_01&vfm=m_332_bing',3000)"><img src="d:/web/images/作业6/图片/守护人/黄渤.jpg" alt="9" /></a>
+		</div>
+	</div>
+
+	<div class="end">
+		<p>苏ICP备000号、2014-2017 版权所有</p>
+	</div>
+</body>
+<script type="text/javascript">
+	function submitc(){
+		var submit = document.getElementById('search').value;
+		if(submit == ""){
+			alert("搜索内容不能为空");
+		}
+	}
+
+	var counter=document.getElementById("counter");
+	var banner=document.getElementById("banner");
+	var pre=document.getElementById("pre");
+	var next=document.getElementById("next");
+	var timer;
+	var nextlist=parseInt(banner.style.left);
+
+	function animals(offset){
+		var newlist=parseInt(banner.style.left)+offset;
+		banner.style.left=newlist+'px';
+		if(newlist<-2401){
+			banner.style.left=0+'px';
+			banner.setAttribute('class','list');
+		}
+		if(newlist>0){
+			banner.style.left=-2400+'px';
+			banner.setAttribute('class','list');
+		}
+	}
+
+	pre.onclick=function(){
+		animals(1200)
+	}
+	next.onclick=function(){
+		animals(-1200)
+	}
+
+	function start(){
+		timer=setInterval(function(){
+			next.onclick()
+		},2000);
+	}
+	start();
+	function stop(){
+		clearInterval(timer);
+	}
+	counter.onmouseleave=start;
+	counter.onmouseenter=stop;
+
+	function delayURL(url,time){
+		alert("页面将在三秒后跳转");
+ 		setTimeout("top.location.href = '" + url + "'",time);
+ 	}
+</script>
+</html>
