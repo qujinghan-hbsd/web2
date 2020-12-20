@@ -53,7 +53,7 @@ body{
 	float: left;
 	width: 30px;
 	height: 30px;
-	background: #FC0 url(C:/Users/卿依/Desktop/web大作业/images/作业6/图片/search.png) no-repeat center center;
+	background: #FC0 url(images/作业6/图片/search.png) no-repeat center center;
 }
 
 #counter{
@@ -110,7 +110,7 @@ body{
 	text-align: center;
 	color:#002346;
 	font-weight: bold;
-	background: url(C:/Users/卿依/Desktop/web大作业/images/作业6/图片/banner/line1.jpg) no-repeat center center;
+	background: url(images/作业6/图片/banner/line1.jpg) no-repeat center center;
 	background-size: 1200px 50px;
 	margin-top: 20px;
 }
